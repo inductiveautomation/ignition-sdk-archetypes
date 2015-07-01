@@ -1,14 +1,7 @@
 <archetype-descriptor name="${artifactId}">
     <modules>
         <module id="${rootArtifactId}-build" dir="__rootArtifactId__-build" name="${rootArtifactId}-build" package="">
-            <fileSets>
-                <fileSet filtered="true" packaged="true" encoding="UTF-8">
-                    <directory>src/main/java</directory>
-                </fileSet>
-                <fileSet encoding="UTF-8">
-                    <directory>src/main/resources</directory>
-                </fileSet>
-            </fileSets>
+            <!-- No files to copy for build module -->
         </module>
         <module id="${rootArtifactId}-client" dir="__rootArtifactId__-client" name="${rootArtifactId}-client">
             <fileSets>
