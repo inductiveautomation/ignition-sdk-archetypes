@@ -18,10 +18,8 @@
     <url>http://github.com/inductiveautomation/ignition-sdk-archetypes</url>
 
     <scm>
-        <connection>scm:git:git://github.com/inductiveautomation/ignition-sdk-archetypes.git</connection>
-        <developerConnection>scm:git:git@github.com:inductiveautomation/ignition-sdk-archetypes.git
-        </developerConnection>
         <url>http://github.com/inductiveautomation/ignition-sdk-archetypes</url>
+        <connection>scm:git:git@github.com/inductiveautomation/ignition-sdk-archetypes.git</connection>
     </scm>
 
     <licenses>
@@ -34,7 +32,7 @@
 
     <issueManagement>
         <system>github</system>
-        <url>http://github.com/inductiveautomation/ignition-sdk-archetypes/issues#issue</url>
+        <url>http://github.com/inductiveautomation/ignition-sdk-archetypes/issues</url>
     </issueManagement>
 
     <developers>
