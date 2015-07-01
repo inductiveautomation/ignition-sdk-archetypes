@@ -24,6 +24,14 @@
         <url>http://github.com/inductiveautomation/ignition-sdk-archetypes</url>
     </scm>
 
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
     <issueManagement>
         <system>github</system>
         <url>http://github.com/inductiveautomation/ignition-sdk-archetypes/issues#issue</url>
@@ -78,5 +86,5 @@
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
     </distributionManagement>
-    
+
 </project>
