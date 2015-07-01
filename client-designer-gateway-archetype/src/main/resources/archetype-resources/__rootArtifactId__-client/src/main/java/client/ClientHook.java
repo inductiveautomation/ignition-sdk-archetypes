@@ -1,4 +1,4 @@
-package ${package};
+package ${package}.client;
 
 import com.inductiveautomation.ignition.client.model.ClientContext;
 import com.inductiveautomation.ignition.common.licensing.LicenseState;

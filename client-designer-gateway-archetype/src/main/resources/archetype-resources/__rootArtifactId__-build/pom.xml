@@ -81,11 +81,11 @@
                     <hooks>
                         <hook>
                             <scope>C</scope>
-                            <hookClass>${package}.ClientHook</hookClass>
+                            <hookClass>${package}.client.ClientHook</hookClass>
                         </hook>
                         <hook>
                             <scope>D</scope>
-                            <hookClass>${package}.DesignerHook</hookClass>
+                            <hookClass>${package}.designer.DesignerHook</hookClass>
                         </hook>
                         <hook>
                             <scope>G</scope>
