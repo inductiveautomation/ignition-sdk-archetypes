@@ -12,7 +12,7 @@
     <url>http://github.com/inductiveautomation/ignition-sdk-archetypes</url>
 
     <scm>
-        <url>http://github.com/inductiveautomation/ignition-sdk-archetypes</url>
+        <url>https://github.com/inductiveautomation/ignition-sdk-archetypes</url>
         <connection>scm:git:git@github.com/inductiveautomation/ignition-sdk-archetypes.git</connection>
     </scm>
 
