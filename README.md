@@ -8,5 +8,5 @@ A module that will load hooks into all three scopes.
 mvn archetype:generate \
 -DarchetypeGroupId=com.inductiveautomation.ignitionsdk \
 -DarchetypeArtifactId=client-designer-gateway-archetype \
--DarchetypeVersion=1.0.0
+-DarchetypeVersion=1.0.1
 ```
