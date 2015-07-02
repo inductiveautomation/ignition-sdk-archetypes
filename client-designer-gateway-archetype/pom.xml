@@ -8,6 +8,7 @@
     <packaging>maven-archetype</packaging>
 
     <name>Archetype - Ignition Client+Designer+Gateway Scope Module</name>
+    <description>Maven Archetype for an Ignition Client+Designer+Gateway Scope Module</description>
     <url>http://github.com/inductiveautomation/ignition-sdk-archetypes</url>
 
     <scm>
@@ -121,6 +122,17 @@
                     <releaseProfiles>ossrh-release</releaseProfiles>
                     <goals>deploy</goals>
                     <tagNameFormat>v@{project.version}</tagNameFormat>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.sonatype.plugins</groupId>
+                <artifactId>nexus-staging-maven-plugin</artifactId>
+                <version>1.6.3</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <serverId>ossrh</serverId>
+                    <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                    <autoReleaseAfterClose>true</autoReleaseAfterClose>
                 </configuration>
             </plugin>
         </plugins>
