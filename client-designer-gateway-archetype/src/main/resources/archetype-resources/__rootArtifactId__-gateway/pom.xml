@@ -28,14 +28,6 @@
             <type>pom</type>
             <scope>provided</scope>
         </dependency>
-
-        <dependency>
-            <groupId>com.inductiveautomation.ignitionsdk</groupId>
-            <artifactId>driver-api</artifactId>
-            <version>${ignition-sdk-version}</version>
-            <type>pom</type>
-            <scope>provided</scope>
-        </dependency>
     </dependencies>
 
     <build>
