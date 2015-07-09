@@ -2,9 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.inductiveautomation.ignitionsdk</groupId>
+    <parent>
+        <groupId>com.inductiveautomation.ignitionsdk</groupId>
+        <artifactId>ignition-sdk-archetypes</artifactId>
+        <version>1.0.2-SNAPSHOT</version>
+    </parent>
+
     <artifactId>client-designer-gateway-archetype</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
     <packaging>maven-archetype</packaging>
 
     <name>Archetype - Ignition Client+Designer+Gateway Scope Module</name>

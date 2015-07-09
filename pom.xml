@@ -2,18 +2,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>com.inductiveautomation.ignitionsdk</groupId>
-        <artifactId>ignition-sdk-archetypes</artifactId>
-        <version>1.0.2-SNAPSHOT</version>
-    </parent>
+    <groupId>com.inductiveautomation.ignitionsdk</groupId>
+    <artifactId>ignition-sdk-archetypes</artifactId>
+    <version>1.0.2-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
-    <artifactId>opc-ua-driver-archetype</artifactId>
-    <packaging>maven-archetype</packaging>
-
-    <name>Archetype - Ignition OPC-UA Driver Module</name>
-    <description>Maven Archetype for an Ignition OPC-UA Driver Module</description>
+    <name>Ignition SDK Archetypes</name>
+    <description>Maven Archetypes for the Ignition SDK</description>
     <url>http://github.com/inductiveautomation/ignition-sdk-archetypes</url>
+
+    <modules>
+        <module>client-designer-gateway-archetype</module>
+        <module>opc-ua-driver-archetype</module>
+    </modules>
 
     <scm>
         <url>https://github.com/inductiveautomation/ignition-sdk-archetypes</url>
