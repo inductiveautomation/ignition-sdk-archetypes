@@ -4,7 +4,7 @@
 
     <groupId>com.inductiveautomation.ignitionsdk</groupId>
     <artifactId>ignition-sdk-archetypes</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.2</version>
     <packaging>pom</packaging>
 
     <name>Ignition SDK Archetypes</name>
@@ -20,7 +20,7 @@
         <url>https://github.com/inductiveautomation/ignition-sdk-archetypes</url>
         <connection>scm:git:git://github.com/inductiveautomation/ignition-sdk-archetypes.git</connection>
         <developerConnection>scm:git:git@github.com:inductiveautomation/ignition-sdk-archetypes.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>v1.0.2</tag>
   </scm>
 
     <licenses>
