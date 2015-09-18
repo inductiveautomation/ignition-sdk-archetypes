@@ -4,7 +4,7 @@
 
     <groupId>com.inductiveautomation.ignitionsdk</groupId>
     <artifactId>vision-component-archetype</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.2-SNAPSHOT</version>
     <packaging>maven-archetype</packaging>
 
     <name>Archetype - Ignition Vision Module Component Archetype</name>
@@ -15,7 +15,7 @@
         <url>https://github.com/inductiveautomation/ignition-sdk-archetypes</url>
         <connection>scm:git:git://github.com/inductiveautomation/ignition-sdk-archetypes.git</connection>
         <developerConnection>scm:git:git@github.com:inductiveautomation/ignition-sdk-archetypes.git</developerConnection>
-      <tag>v1.0.2</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <licenses>
