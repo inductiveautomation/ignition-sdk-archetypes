@@ -13,7 +13,7 @@
 
     <modules>
         <module>client-designer-gateway-archetype</module>
-        <module>opc-ua-driver-archetype</module>
+        <module>opc-ua-device-archetype</module>
         <module>vision-component-archetype</module>
     </modules>
 

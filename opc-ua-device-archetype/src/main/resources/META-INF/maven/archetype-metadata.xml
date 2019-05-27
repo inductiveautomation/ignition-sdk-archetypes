@@ -4,7 +4,7 @@
             <!-- No files to copy for build module -->
         </module>
 
-        <module id="${rootArtifactId}-driver" dir="__rootArtifactId__-driver" name="${rootArtifactId}-driver">
+        <module id="${rootArtifactId}-device" dir="__rootArtifactId__-device" name="${rootArtifactId}-device">
             <fileSets>
                 <fileSet filtered="true" packaged="true" encoding="UTF-8">
                     <directory>src/main/java</directory>
