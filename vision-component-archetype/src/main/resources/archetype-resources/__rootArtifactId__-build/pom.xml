@@ -57,7 +57,7 @@
                     <moduleName>${project.parent.name}</moduleName>
                     <moduleDescription>${project.description}</moduleDescription>
                     <moduleVersion>${version}</moduleVersion>
-                    <requiredIgnitionVersion>7.8.0</requiredIgnitionVersion>
+                    <requiredIgnitionVersion>8.0.0</requiredIgnitionVersion>
 
                     <hooks>
                         <hook>
