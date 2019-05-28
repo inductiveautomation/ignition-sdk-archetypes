@@ -4,7 +4,7 @@
 
     <groupId>com.inductiveautomation.ignitionsdk</groupId>
     <artifactId>ignition-sdk-archetypes</artifactId>
-    <version>1.1.1-SNAPSHOT</version>
+    <version>1.2.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Ignition SDK Archetypes</name>
@@ -13,7 +13,7 @@
 
     <modules>
         <module>client-designer-gateway-archetype</module>
-        <module>opc-ua-driver-archetype</module>
+        <module>opc-ua-device-archetype</module>
         <module>vision-component-archetype</module>
     </modules>
 
@@ -49,8 +49,8 @@
     <properties>
         <maven.test.skip>true</maven.test.skip>
         <maven.version>3.0</maven.version>
-        <maven.compiler.source>1.6</maven.compiler.source>
-        <maven.compiler.target>1.6</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
         <encoding>UTF-8</encoding>
         <project.build.sourceEncoding>${encoding}</project.build.sourceEncoding>
     </properties>

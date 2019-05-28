@@ -13,7 +13,7 @@
     <description>${rootArtifactId} Ignition Module</description>
 
     <properties>
-        <ignition-sdk-version>7.8.4</ignition-sdk-version>
+        <ignition-sdk-version>8.0.1</ignition-sdk-version>
     </properties>
 
     <modules>

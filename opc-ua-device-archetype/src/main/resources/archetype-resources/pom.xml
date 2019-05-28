@@ -9,16 +9,16 @@
     <version>${version}</version>
     <packaging>pom</packaging>
 
-    <name>${rootArtifactId} Driver Module</name>
-    <description>${rootArtifactId} Driver Module</description>
+    <name>${rootArtifactId} Device Module</name>
+    <description>${rootArtifactId} Device Module</description>
 
     <properties>
-        <ignition-sdk-version>7.8.4</ignition-sdk-version>
+        <ignition-sdk-version>8.0.1</ignition-sdk-version>
     </properties>
 
     <modules>
         <module>${rootArtifactId}-build</module>
-        <module>${rootArtifactId}-driver</module>
+        <module>${rootArtifactId}-device</module>
     </modules>
 
     <pluginRepositories>
