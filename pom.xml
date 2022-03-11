@@ -4,7 +4,7 @@
 
     <groupId>com.inductiveautomation.ignitionsdk</groupId>
     <artifactId>ignition-sdk-archetypes</artifactId>
-    <version>1.2.1-SNAPSHOT</version>
+    <version>1.3.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Ignition SDK Archetypes</name>
@@ -15,6 +15,7 @@
         <module>client-designer-gateway-archetype</module>
         <module>opc-ua-device-archetype</module>
         <module>vision-component-archetype</module>
+        <module>perspective-component-archetype</module>
     </modules>
 
     <scm>
