@@ -13,6 +13,13 @@
     <artifactId>${artifactId}</artifactId>
 
     <dependencies>
+
+        <dependency>
+            <groupId>${groupId}</groupId>
+            <artifactId>${rootArtifactId}-perspective</artifactId>
+            <version>${version}</version>
+        </dependency>
+
         <dependency>
             <groupId>${groupId}</groupId>
             <artifactId>${rootArtifactId}-common</artifactId>
@@ -29,7 +36,7 @@
 
         <dependency>
             <groupId>com.inductiveautomation.ignitionsdk</groupId>
-            <artifactId>client-api</artifactId>
+            <artifactId>designer-api</artifactId>
             <version>${ignition-sdk-version}</version>
             <type>pom</type>
             <scope>provided</scope>
@@ -37,7 +44,7 @@
 
         <dependency>
             <groupId>com.inductiveautomation.ignitionsdk</groupId>
-            <artifactId>designer-api</artifactId>
+            <artifactId>perspective-designer</artifactId>
             <version>${ignition-sdk-version}</version>
             <type>pom</type>
             <scope>provided</scope>

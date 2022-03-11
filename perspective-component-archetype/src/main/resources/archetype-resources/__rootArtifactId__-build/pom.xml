@@ -70,6 +70,13 @@
                         </projectScope>
                     </projectScopes>
 
+                    <depends>
+                        <depend>
+                            <scope>G</scope>
+                            <moduleId>com.inductiveautomation.perspective</moduleId>
+                        </depend>
+                    </depends>
+
                     <moduleId>${groupId}.${rootArtifactId}</moduleId>
                     <moduleName>${project.parent.name}</moduleName>
                     <moduleDescription>${project.description}</moduleDescription>

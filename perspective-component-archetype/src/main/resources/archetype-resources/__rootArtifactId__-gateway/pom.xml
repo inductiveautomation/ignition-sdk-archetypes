@@ -13,6 +13,13 @@
     <artifactId>${artifactId}</artifactId>
 
     <dependencies>
+
+        <dependency>
+            <groupId>${groupId}</groupId>
+            <artifactId>${rootArtifactId}-perspective</artifactId>
+            <version>${version}</version>
+        </dependency>
+
         <dependency>
             <groupId>com.inductiveautomation.ignitionsdk</groupId>
             <artifactId>ignition-common</artifactId>
@@ -30,9 +37,11 @@
         </dependency>
 
         <dependency>
-            <groupId>${groupId}</groupId>
-            <artifactId>${rootArtifactId}-perspective</artifactId>
-            <version>${version}</version>
+            <groupId>com.inductiveautomation.ignitionsdk</groupId>
+            <artifactId>perspective-gateway</artifactId>
+            <version>${ignition-sdk-version}</version>
+            <type>pom</type>
+            <scope>provided</scope>
         </dependency>
 
         <dependency>
