@@ -13,16 +13,9 @@
     <artifactId>${artifactId}</artifactId>
 
     <dependencies>
-
         <dependency>
             <groupId>${groupId}</groupId>
             <artifactId>${rootArtifactId}-common</artifactId>
-            <version>${version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>${groupId}</groupId>
-            <artifactId>${rootArtifactId}-client</artifactId>
             <version>${version}</version>
         </dependency>
 
@@ -53,6 +46,14 @@
         <dependency>
             <groupId>com.inductiveautomation.ignitionsdk</groupId>
             <artifactId>vision-designer-api</artifactId>
+            <version>${ignition-sdk-version}</version>
+            <type>pom</type>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.inductiveautomation.ignitionsdk</groupId>
+            <artifactId>vision-client-api</artifactId>
             <version>${ignition-sdk-version}</version>
             <type>pom</type>
             <scope>provided</scope>

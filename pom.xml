@@ -15,6 +15,8 @@
         <module>client-designer-gateway-archetype</module>
         <module>opc-ua-device-archetype</module>
         <module>vision-component-archetype</module>
+        <module>perspective-component-archetype</module>
+        <module>all-scopes-archetype</module>
     </modules>
 
     <scm>

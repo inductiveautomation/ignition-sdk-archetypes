@@ -1,0 +1,26 @@
+{
+  "name": "${rootArtifactId}-perspective",
+  "version": "1.0.0",
+  "description": "${rootArtifactId} Perspective Components",
+  "main": "dist/index.js",
+  "author": "${groupId}",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "clean": "lerna clean",
+    "check": "lerna check"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "typescript": "^3.6.5",
+    "yarn": "^1.22.15"
+  },
+  "resolutions": {
+    "@types/react": "^16.9.12",
+    "@types/react-dom": "^16.8.3"
+  }
+}

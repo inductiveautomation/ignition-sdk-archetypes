@@ -15,18 +15,6 @@
     <dependencies>
 
         <dependency>
-            <groupId>${groupId}</groupId>
-            <artifactId>${rootArtifactId}-common</artifactId>
-            <version>${version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>${groupId}</groupId>
-            <artifactId>${rootArtifactId}-client</artifactId>
-            <version>${version}</version>
-        </dependency>
-
-        <dependency>
             <groupId>com.inductiveautomation.ignitionsdk</groupId>
             <artifactId>ignition-common</artifactId>
             <version>${ignition-sdk-version}</version>
@@ -35,27 +23,10 @@
         </dependency>
 
         <dependency>
-            <groupId>com.inductiveautomation.ignitionsdk</groupId>
-            <artifactId>client-api</artifactId>
-            <version>${ignition-sdk-version}</version>
-            <type>pom</type>
-            <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>com.inductiveautomation.ignitionsdk</groupId>
-            <artifactId>designer-api</artifactId>
-            <version>${ignition-sdk-version}</version>
-            <type>pom</type>
-            <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>com.inductiveautomation.ignitionsdk</groupId>
-            <artifactId>vision-designer-api</artifactId>
-            <version>${ignition-sdk-version}</version>
-            <type>pom</type>
-            <scope>provided</scope>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
@@ -69,6 +40,26 @@
                     <source>11</source>
                     <target>11</target>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.19.1</version>
+                <configuration>
+                    <argLine>-Xmx2048m -Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.junit.platform</groupId>
+                        <artifactId>junit-platform-surefire-provider</artifactId>
+                        <version>1.1.0</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.junit.jupiter</groupId>
+                        <artifactId>junit-jupiter-engine</artifactId>
+                        <version>${junit.version}</version>
+                    </dependency>
+                </dependencies>
             </plugin>
         </plugins>
     </build>
