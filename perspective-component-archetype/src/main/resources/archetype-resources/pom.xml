@@ -24,6 +24,7 @@
         <module>${rootArtifactId}-common</module>
         <module>${rootArtifactId}-designer</module>
         <module>${rootArtifactId}-gateway</module>
+        <module>${rootArtifactId}-perspective</module>
     </modules>
 
     <pluginRepositories>

@@ -85,8 +85,8 @@
                     <moduleId>${groupId}.${rootArtifactId}</moduleId>
                     <moduleName>${project.parent.name}</moduleName>
                     <moduleDescription>${project.description}</moduleDescription>
-                    <moduleVersion>${version}</moduleVersion>
-                    <requiredIgnitionVersion>8.0.0.${maven.build.timestamp}</requiredIgnitionVersion>
+                    <moduleVersion>${version}.${maven.build.timestamp}</moduleVersion>
+                    <requiredIgnitionVersion>8.0.0</requiredIgnitionVersion>
 
                     <!-- Development Gateway Address -->
                     <gatewayAddress>http://127.0.0.1:8088</gatewayAddress>
