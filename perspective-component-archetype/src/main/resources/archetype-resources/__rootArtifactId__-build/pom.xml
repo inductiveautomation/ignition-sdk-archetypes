@@ -83,6 +83,9 @@
                     <moduleVersion>${version}</moduleVersion>
                     <requiredIgnitionVersion>8.0.0.${maven.build.timestamp}</requiredIgnitionVersion>
 
+                    <!-- Development Gateway Address -->
+                    <gatewayAddress>http://127.0.0.1:8088</gatewayAddress>
+
                     <hooks>
                         <hook>
                             <scope>D</scope>
