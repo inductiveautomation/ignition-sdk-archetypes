@@ -30,3 +30,13 @@ mvn archetype:generate \
 -DarchetypeArtifactId=perspective-component-archetype \
 -DarchetypeVersion=1.2.1
 ```
+
+### Module for All Scopes
+A module that will provide new components to Ignition's Perspective visualization module.
+
+```
+mvn archetype:generate \
+-DarchetypeGroupId=com.inductiveautomation.ignitionsdk \
+-DarchetypeArtifactId=all-scopes-archetype \
+-DarchetypeVersion=1.2.1
+```
