@@ -3,12 +3,11 @@ package ${package}.client;
 import com.inductiveautomation.ignition.client.model.ClientContext;
 import com.inductiveautomation.ignition.common.licensing.LicenseState;
 import com.inductiveautomation.vision.api.client.AbstractClientModuleHook;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.inductiveautomation.ignition.common.util.LoggerEx;
 
 public class ClientHook extends AbstractClientModuleHook {
 
-    private final Logger logger = LoggerFactory.getLogger(getClass());
+    private final LoggerEx logger = LoggerEx.newBuilder().build(getClass());
 
     @Override
     public void startup(ClientContext context, LicenseState activationState) throws Exception {

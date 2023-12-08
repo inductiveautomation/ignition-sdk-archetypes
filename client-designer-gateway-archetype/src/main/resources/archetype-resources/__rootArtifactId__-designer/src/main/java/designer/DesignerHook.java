@@ -3,12 +3,11 @@ package ${package}.designer;
 import com.inductiveautomation.ignition.common.licensing.LicenseState;
 import com.inductiveautomation.ignition.designer.model.AbstractDesignerModuleHook;
 import com.inductiveautomation.ignition.designer.model.DesignerContext;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.inductiveautomation.ignition.common.util.LoggerEx;
 
 public class DesignerHook extends AbstractDesignerModuleHook {
 
-    private final Logger logger = LoggerFactory.getLogger(getClass());
+    private final LoggerEx logger = LoggerEx.newBuilder().build(getClass());
 
     @Override
     public void startup(DesignerContext context, LicenseState activationState) throws Exception {
